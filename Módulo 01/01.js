@@ -10,8 +10,8 @@ class Usuario {
 }
 
 class Admin extends Usuario {
-  constructor(email, senha) {
-    super(email, senha);
+  constructor() {
+    super();
 
     this.admin = true;
   }
